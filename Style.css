@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html { 
+	background-color: 	#CCCCFF; 
+	font-family: Helvetica;
+
+}
+.container  {
+	position: relative;
+    left: -3px;
+    top: 0px;
+    border-radius: 30px;
+    width: 1000px;
+    height: 600px;
+    background: CornFlowerBlue;
+    margin: 0px auto;
+    border: solid 3px white;
+}
+h1 {
+    margin: 25px auto;
+    text-align: center;
+	color: white;
+    font-size: 50px;
+    text-shadow: #444 1px 1px 2px;
+    font-family: "Helvetica";	
+}
+p {
+	position: absolute;
+	left: 20px;
+	top: 620px;
+}
+span{
+	position: absolute;
+	top: -20px;
+    left: 15px;
+	font-size: 12pt;
+	color: white;
+}
+#south-pos > span{
+	position: absolute;
+	top: 100px;
+    left: 15px;
+	font-size: 12pt;
+	color: white;
+}
+#north-hand, #north-pos{ 
+	white-space: nowrap;   
+	position: absolute;
+    top: 30px;
+    left: 460px;
+    margin: 0px auto;
+}
+#west-hand, #west-pos{
+	white-space: nowrap;
+	position: absolute;
+    top: 250px;
+	left: 30px;
+	margin: auto 0px;
+}
+#east-hand, #east-pos{
+	white-space: nowrap;
+	position: absolute;
+    top: 250px;
+	left: 870px;
+	margin: auto 0px;
+}
+#south-hand {
+	position: absolute;
+    /*top: 360px;*/
+    top: 470px;
+    left: 460px;
+    margin: auto 0px;
+}
+#south-pos {
+	white-space: nowrap;
+	position: absolute;
+    top: 470px;
+    left: 460px;
+    margin: auto 0px;
+}
+.card > img, .player_card {
+	position: relative;
+	width: 70px;
+}
+#player-hand {
+    position: absolute;
+    left: 5px;
+    top: 470px;
+    width: 990px;
+    height: 94px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hearts</title>	
+		<script src="jquery-3.2.1.js"></script>
+		<script src="Card.js"></script>
+		<script src="Hearts.js"></script>
+		<script src="HeartsMatch.js"></script>
+		<script src="Player.js"></script>
+		<script src="DumbAI.js"></script>
+		<script src="SmartAI.js"></script>
+		<script src="Main.js"></script>		
+		<link rel = "stylesheet" type="text/css" href="Style.css">	
+	</head>
+<body>
+<h1>Hearts</h1>
+<div class="container">
+
+	<img id="pass-img">
+
+	<div class="card" id="north-pos">
+		<span>North: 0 pts</span>
+		<img src='svg/cardback_blue.svg'>		
+	</div>
+	
+	<div class="card" id="east-pos">
+		<span>East: 0 pts</span>
+		<img src='svg/cardback_blue.svg'>			
+	</div>
+		
+	<div class="card" id="west-pos">
+		<span>West: 0 pts</span>
+		<img src='svg/cardback_blue.svg'>			
+	</div>
+	
+	<div class="card" id="south-pos">
+			<span>South: 0 pts</span>			
+		</div>
+
+	<div class="card" id="north-hand"></div>
+	<div class="card" id="west-hand"></div>
+	<div class="card" id="east-hand"></div>	
+	<div class="card" id="south-hand"></div>
+
+	<div id="player-hand">					
+		<div class="player_card"></div>			
+		<div class="player_card"></div>			
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+		<div class="player_card"></div>	
+	</div>
+
+	<p>Created by Calvin Newton.<br>
+		The card deck images are from openclipart.org.<br>
+	The AI passes the highest cards and uses a ducking Strategy to avoid winning the trick.<br>
+</p>
+</div>
+</body>
+</html>
+
